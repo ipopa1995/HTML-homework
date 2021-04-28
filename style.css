@@ -1,0 +1,101 @@
+
+body {
+    font-family:"Arial, Helvetica, sans-serif";
+    font-size: 16px;
+    line-height: 1.8em;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/d7/59/b5/d759b559ad669f9e199f1aaaa381a8ab.jpg");
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: #1e5e5e;
+    text-decoration: none;
+}
+
+img {
+    margin: 2 auto;
+    padding: 2em;
+    text-align: center;
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.school, .exp-title {
+    text-transform: capitalize;
+}
+
+.school span, .exp-title span {
+    color: #646768;
+    text-decoration: underline;
+}
+
+ul {
+list-style-type: none; 
+}
+ul.notes li::before{
+    content: "\27A4";
+    padding-right: 0.5em;
+    color: #51509e;
+}
+
+ul.exp-description li::before{
+    content: "\2605";
+    padding-right: 0.5em;
+    color: #0b4e16;
+}
+
+ul.hobbies li::before{
+    content: "\2764";
+    padding-right: 0.5em;
+    color: #4e0b0b;
+}
+
+table {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg td {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
